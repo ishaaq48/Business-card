@@ -1,0 +1,40 @@
+body
+{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+    background-color: black;
+}
+
+.ishq
+{
+    width: 150px;
+}
+.card
+{
+    width: 400px;
+    margin : 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #9d8189;
+    color: #003049;
+}
+.card:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px #ffe5d9;
+}
+.ishq:hover
+{
+    filter: brightness(1.2);
+}
+.content
+{
+    margin: 20px;
+}
+.content:hover
+{
+    text-shadow: 1px 0 #344e41;
+}
